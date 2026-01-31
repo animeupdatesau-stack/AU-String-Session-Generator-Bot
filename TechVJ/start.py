@@ -18,7 +18,7 @@ async def start(bot: Client, msg: Message):
                 return 
             key = InlineKeyboardMarkup(
                 [[
-                    InlineKeyboardButton("🍿 Join Update Channel 🍿", url=invite_link.invite_link),
+                    InlineKeyboardButton("❄️ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ❄️", url=invite_link.invite_link),
                     InlineKeyboardButton("🍀 Check Again 🍀", callback_data="chk")
                 ]]
             ) 
@@ -30,10 +30,10 @@ async def start(bot: Client, msg: Message):
         text=f"""<b>𝐇𝐞𝐲 {msg.from_user.mention}🍷,\n\nɪ ᴀᴍ {me},\nᴛʀᴜsᴛᴇᴅ 𝗦𝗧𝗥𝗜𝗡𝗚 𝗚𝗥𝗡𝗘𝗥𝗔𝗧𝗢𝗥 ʙᴏᴛ.ғᴜʟʟʏ sᴀғᴇ & sᴇᴄᴜʀᴇ.\nɴᴏ ᴀɴʏ ᴇʀʀᴏʀ\n\nMade With By : [Aɴɪᴍᴇ Uᴘᴅᴀᴛᴇs](https://t.me/Anime_UpdatesAU) !</b>""",
         reply_markup=InlineKeyboardMarkup(
             [[
-                InlineKeyboardButton(text="⚡ Generate String Session ⚡", callback_data="generate")
+                InlineKeyboardButton(text="⚡ Gᴇɴᴇʀᴀᴛᴇ Sᴛʀɪɴɢ Sᴇssɪᴏɴ ⚡", callback_data="generate")
             ],[
-                InlineKeyboardButton("❣️ Support Group ❣️", url="https://t.me/AU_Bot_Discussion"),
-                InlineKeyboardButton("🥀 Update Channel 🥀", url="https://t.me/Anime_UpdatesAU")
+                InlineKeyboardButton("❣️ AU Sᴜᴘᴘᴏʀᴛ ❣️", url="https://t.me/AU_Bot_Discussion"),
+                InlineKeyboardButton("❄️ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🥀", url="https://t.me/Anime_UpdatesAU")
             ]]
         )
     )
@@ -51,10 +51,10 @@ async def chk(bot : Client, cb : CallbackQuery):
         text=f"""<b>𝐇𝐞𝐲 {cb.from_user.mention}🍷,\n\nɪ ᴀᴍ {me},\nᴛʀᴜsᴛᴇᴅ 𝗦𝗧𝗥𝗜𝗡𝗚 𝗚𝗥𝗡𝗘𝗥𝗔𝗧𝗢𝗥 ʙᴏᴛ.ғᴜʟʟʏ sᴀғᴇ & sᴇᴄᴜʀᴇ.\nɴᴏ ᴀɴʏ ᴇʀʀᴏʀ\n\nMade With By : [Aɴɪᴍᴇ Uᴘᴅᴀᴛᴇs](https://t.me/Anime_UpdatesAU) !</b>""",
         reply_markup=InlineKeyboardMarkup(
             [[
-                InlineKeyboardButton(text="⚡ Generate String Session ⚡", callback_data="generate")
+                InlineKeyboardButton(text="⚡ Gᴇɴᴇʀᴀᴛᴇ Sᴛʀɪɴɢ Sᴇssɪᴏɴ ⚡", callback_data="generate")
             ],[
-                InlineKeyboardButton("❣️ Support Group ❣️", url="https://t.me/AU_Bot_Discussion"),
-                InlineKeyboardButton("🥀 Update Channel 🥀", url="https://t.me/Anime_UpdatesAU")
+                InlineKeyboardButton("❣️ AU Sᴜᴘᴘᴏʀᴛ ❣️", url="https://t.me/AU_Bot_Discussion"),
+                InlineKeyboardButton("❄️ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ❄️", url="https://t.me/Anime_UpdatesAU")
             ]]
         )
     )
